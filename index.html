@@ -3,6 +3,8 @@
 
     <head>
         <title>html learning</title>
+        <link rel="stylesheet" href="style.css">
+
     </head>
 
     <body>
@@ -21,6 +23,7 @@
             </p>
             <h3>
                 <ol>
+                    <!-- ordered list -->
                     <li>mango juice</li>
                     <li>lemon juice</li>
                     <li>pineaple juice</li>
@@ -63,27 +66,71 @@
             <div>
                 <img src="img/image.png" alt="" style="padding-left: 42%;">
                 <hr>
-                <h3 style=" text-align: center;"> aman shukla </h3>
+                <h3 style=" text-align: center;color: blueviolet;"> aman shukla </h3>
                 <hr>
-                <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+                <p style="text-align: center;" class="para2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
                     cupiditate, neque vel quod laudantium minima explicabo quo, accusamus quisquam dolore assumenda
                     fugiat autem quasi optio repellendus maxime modi velit culpa.</p>
             </div>
             <hr>
             <div>
-                <img src="img/image.png" alt="" style="padding-left: 42%;">
+                <img src="img/image.png" alt="" style="padding-left: 42%; border: 50px dashed color: hotpink;">
                 <hr>
-                <h3 style="text-align: center;">sakshi sinde</h3>
+                <h3 style="text-align: center;color: blueviolet;">sakshi shinde</h3>
                 <hr>
                 <p class="para" style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Tenetur cupiditate, neque vel quod laudantium minima explicabo quo, accusamus quisquam dolore
                     assumenda fugiat autem quasi optio repellendus maxime modi velit culpa.</p>
             </div>
-            <div>
-                <video width="400" height="400" controls>
+            <div style=padding-left:2px; >
+                <video style="padding-left: 3px;" width="400" height="400" controls>
                     <source src="video/video_of_a_cat (720p).mp4" type="video/mp4" autoplay>
                 </video>
-            </div>
-    </body>
 
+                <video style="padding-left: 3px;" width="400" height="400" controls>
+                    <source src="img3/video_of_funny_cat (1080p).mp4" type="video/mp4" autoplay>
+                </video>
+            
+                <video style="padding-left: 3px;" width="400" height="400" controls>
+                    <source src="img3/pexels_videos_1481903 (1080p).mp4" type="video/mp4" autoplay>
+                </video>
+                <div>
+                <iframe width="33%" height="50%" src="https://www.youtube.com/embed/WnW6BoV_LdA?si=0OYjgngOFcMs4_Ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="33%" height="50%" src="https://www.youtube.com/embed/V6JQGPn4KW4?si=ViQw89b1_uGD3G6R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="33%" height="50%" src="https://www.youtube.com/embed/l_vd2cpAYHw?si=o7SDTr1JEWXvT6IZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="label">
+                <!-- <form action="get"></form> -->
+               <form type="submit" method="post" action="thankyou.html">
+                    <label>Enter name:</label> <br> 
+                    <input type="name"></input><br>
+                    <label>Enter phone:</label> <br> 
+                    <input type="number"></input><br> 
+                    <label>Enter email:</label> <br> 
+                    <input type="email"></input><br> 
+                    <label>Enter password:</label> <br> 
+                    <input type="password"></input><br> 
+                    <label>choose a subjects:</label> <br> 
+                    <input type="checkbox" name="maths" value="maths">Maths</input>
+                    <input type="checkbox" name="science" value="science">science</input>
+                    <input type="checkbox" name="biology" value="biology">Biology</input><br> 
+                    <label>select gender</label><br>
+                    <input type="radio" name="gender"value="male">Male</input>
+                    <label>select gender</label><br>
+                    <input type="radio" name="gender"value="female">Female</input><br> 
+                    <label>Enter date:</label> <br> 
+                    <input type="date"></input><br> 
+                    <label>Enter file:</label> <br>
+                    <input type="file"></input><br> 
+                    <textarea type="Enter message"></textarea><br><br> 
+                    <input type="text" placeholder="Enter a message...."cols="10" rows="50"></textarea><br><br>
+                    <input class="button" type="submit"></input>
+ 
+               </form>   
+               
+                </div>
+            </form>
+               
+        </body>
+ 
     </html>
