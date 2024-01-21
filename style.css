@@ -1,0 +1,35 @@
+.para{
+    background-color: bisque;
+    color: rgb(255, 34, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border:10px dashed rgb(rgba(222, 135, 107, 0.644), green, blue) ;
+}
+.para2{
+    background-color: bisque;
+    color: rgb(255, 34, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border:10px dashed rgb(rgba(222, 135, 107, 0.644), green, blue) ;
+    font-weight: 100px;
+}
+.button{
+    color: brown;
+    border-color: brown;
+    background-color: beige;
+    
+}
+.para4{
+    border:2px dashed rosybrown ;
+    border-radius: 5px;
+    font-weight: 4px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+.grid{
+    grid-template-columns: auto auto auto auto;
+}
+.label{
+    border: 8px solid rosybrown;
+    padding: 10px 10px;
+}
